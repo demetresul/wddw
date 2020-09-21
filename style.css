@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: yellow;
+
+    animation-name: bodyAnimation;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-duration: 4s ;
+    animation-iteration-count: infinite;
+    
+
+    
+}
+
+@keyframes bodyAnimation{
+
+    0%{
+        background: yellow;
+    }
+    25%{
+        background: purple;
+    }
+
+    50%{
+        background: skyblue;
+    }
+
+    75%{
+        background: green;
+    }
+
+    100%{
+        background: yellow;
+    }
+    
+}
+
+h1{
+    animation-timing-function: linear;
+    animation-name: textAimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes textAimation{
+0%{
+margin: 200px 0px 0px 200px;
+}
+
+25%{
+    margin: 200px 0px 0px 1000px;
+
+}
+
+75%{
+    margin: 400px 0px 0px 1000px;
+
+}
+
+100%{
+margin: 200px 0px 0px 200px; 
+}
+
+
+
+}
